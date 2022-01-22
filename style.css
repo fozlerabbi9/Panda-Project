@@ -32,8 +32,16 @@ header input {
         flex-direction: column;
     }
 } */
-
+@media (max-width:668px) {
+    *{
+        overflow-x: hidden;
+    }   
+}
 
 .img-slider-style {
     background-color: #FEEAE9;
+}
+
+.shoes-backpack{
+    background-color: rgba(61, 56, 56,0.2);
 }
